@@ -1,0 +1,1000 @@
+  413  mountpoint -q
+  414  findmnt
+  415  cd ..
+  416  touch test_mount.sh
+  417  nano test_mount.sh 
+  418  sudo bash test_mount.sh 
+  419  nano test_mount.sh 
+  420  sudo bash test_mount.sh 
+  421  nano test_mount.sh 
+  422  sudo bash test_mount.sh 
+  423  nano test_mount.sh 
+  424  sudo bash test_mount.sh 
+  425  nano test_mount.sh 
+  426  sudo bash test_mount.sh 
+  427  findmount
+  428  findmout
+  429  findmnt
+  430  sudo bash test_mount.sh 
+  431  nano test_mount.sh 
+  432  findmnt
+  433  sudo test_mount.sh 
+  434  sudo bash test_mount.sh 
+  435  findmnt
+  436  sudo bash test_mount.sh 
+  437  nano test_mount.sh 
+  438  sudo bash test_mount.sh 
+  439  nano test_mount.sh 
+  440  findmnt
+  441  nano test_mount.sh 
+  442  sudo umount -l /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64
+  443  findmnt
+  444  cd arch_install/
+  445  sudo bash arch_main.sh 
+  446  findmnt
+  447  sudo umount -l /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64/run
+  448  su
+  449  findmnt
+  450  sudo rm -Rf *
+  451  cd ..
+  452  sudo bash arch_main.sh
+  453  cd ..
+  454  ls
+  455  cat check_replace.sh 
+  456  nano check_replace.sh 
+  457  bash check_replace.sh 
+  458  nano check_replace.sh 
+  459  bash check_replace.sh 
+  460  nano check_replace.sh 
+  461  bash check_replace.sh 
+  462  nano check_replace.sh 
+  463  cd arch_install/
+  464  sudo bash arch_main.sh 
+  465  lsblk
+  466  sudo bash arch_main.sh 
+  467  sudo bash arch_main.sh
+  468  su
+  469  sudo rm -Rf *
+  470  sudo bash arch_main.sh 
+  471  findmnt
+  472  sudo bash arch_main.sh 
+  473  findmnt
+  474  cd resources/
+  475  cd Files/
+  476  sudo rm -Rf *
+  477  su
+  478  sudo rm -Rf *
+  479  su
+  480  sudo rm -Rf *
+  481  findmnt
+  482  sudo service lightdm restart
+  483  findmnt
+  484  unshare
+  485  unshare mount
+  486  sudo bash arch_main.sh 
+  487  findmnt
+  488  sudo bash arch_main.sh 
+  489  tar --help
+  490  sudo bash arch_main.sh 
+  491  sudo rm -Rf *
+  492  sudo bash arch_main.sh 
+  493  findmnt
+  494  sudo rm -Rf *
+  495  sudo bash arch_main.sh 
+  496  lsblk | awk '{ if ($1 == "sdb")' print $0, "<-- THIS IS THE DRIVE" else print $0 }'
+  497  lsblk | awk '{ if ($1 == "sdb") print $0, "<-- THIS IS THE DRIVE" else print $0 }'
+  498  cd ..
+  499  nano check_replace.sh 
+  500  bash check_replace.sh 
+  501  nano check_replace.sh 
+  502  bash check_replace.sh 
+  503  nano check_replace.sh 
+  504  bash check_replace.sh 
+  505  nano check_replace.sh 
+  506  bash check_replace.sh 
+  507  nano check_replace.sh 
+  508  bash check_replace.sh 
+  509  nano check_replace.sh 
+  510  cd arch_install/
+  511  sudo bash arch_main.sh 
+  512  udevadm info --query=all
+  513  udevadm info --query=all -n /dev/sr
+  514  udevadm info --query=all -n /dev/sr > /dev/null
+  515  udevadm info --query=all -n /dev/sr > /dev/null 2>&1
+  516  sudo bash arch_main.sh 
+  517  findmnt
+  518  sudo umount -l /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64/mnt
+  519  findmnt
+  520  sudo umount -l /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64/mnt
+  521  sudo rm -Rf *
+  522  sudo tzselect
+  523  sudo timedatectl
+  524  sudo dpkg-reconfigure tzdata
+  525  sudo bash arch_main.sh 
+  526  findmnt
+  527  su
+  528  sudo rm -Rf *
+  529  findmnt
+  530  sudo rm -Rf *
+  531  sudo rm -Rf *
+  532  sudo umount /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64
+  533  sudo umount -l /home/user0/Desktop/arch_install/resources/Files/arch_chroot/root.x86_64
+  534  cd ..
+  535  sudo bash arch_main.sh 
+  536  findmnt
+  537  sudo systemctl reboot
+  538  findmnt
+  539  findmnt
+  540  sudo dpkg-reconfigure tzdata
+  541  sudo bash arch_main.sh 
+  542  lsblk
+  543  sudo mount /dev/sdb2 /mnt/
+  544  cd /mnt/
+  545  ls
+  546  dd if=/dev/sdc of=/mnt/arch.iso status=progress
+  547  sudo dd if=/dev/sdc of=/mnt/arch.iso status=progress
+  548  sudo umount -l /mnt 
+  549  lsblk -o NAME,SIZE,LABEL
+  550  sudo mount /devsdb2 /mnt/
+  551  ls /mnt/
+  552  cd /mnt/
+  553  ls
+  554  cd /media/user0/
+  555  ls
+  556  cd test/
+  557  ls
+  558  dd bs=4M if=/dev/sdc of=/media/user0/test/arch_2.iso status=progress oflag=sync
+  559  sudo dd bs=4M if=/dev/sdc of=/media/user0/test/arch_2.iso status=progress oflag=sync
+  560  lsblk
+  561  cat /sys/block/sdc/queue/logical_block_size 
+  562  cat /sys/block/sdc/queue/physical_block_size 
+  563  sudo apt install disktype
+  564  sudo dysktype /dev/sdb
+  565  sudo disktype /dev/sdb
+  566  sudo disktype /dev/sdb | grep cluster
+  567  lsblk
+  568  sudo disktype /dev/sdb2 | grep cluster
+  569  cat /sys/block/sdb/queue/physical_block_size 
+  570  udevadm info --query-=all --name=/dev/sdb
+  571  udevadm info --query=all --name=/dev/sdb
+  572  udevadm info --query=all --name=/dev/sdb | grep ID_FS_TYPE
+  573  udevadm info --query=all --name=/dev/sdb | grep ID_FS
+  574  udevadm info --query=all --name=/dev/sdb | grep xfat
+  575  cd ..
+  576  cd home/
+  577  cd Des
+  578  cd Desktop
+  579  cd Deskctop
+  580  ls
+  581  cd user0/
+  582  cd Desktop/
+  583  nano check_replace.sh 
+  584  bash check_replace.sh 
+  585  sudo apt install blockdev
+  586  nano check_replace.sh 
+  587  blockdev
+  588  sudo apt install util-linux
+  589  blockdev
+  590  blockdev --getsize
+  591  blockdev --getsize64
+  592  blockdev --getsize64 /dev/sdb
+  593  nano check_replace.sh 
+  594  blockdev --getsize64 /dev/sdb
+  595  bash check_replace.sh 
+  596  blockdev --getsize64 /dev/sdb
+  597  nano check_replace.sh 
+  598  bash check_replace.sh 
+  599  nano check_replace.sh 
+  600  bash check_replace.sh 
+  601  lsblk
+  602  nano check_replace.sh 
+  603  sudo blockdev --getsize64 /dev/sdb
+  604  nano check_replace.sh 
+  605  bash check_replace.sh 
+  606  nano check_replace.sh 
+  607  bash check_replace.sh 
+  608  nano check_replace.sh 
+  609  cd arch_install/
+  610  sudo bash arch_main.sh 
+  611  slblk
+  612  lsblk
+  613  sudo dd if=/dev/sdb of=/media/user0/test/arch_finall_linux.iso status=progress
+  614  cd /media/user0/test/
+  615  ls
+  616  rm arch_finall_linux.iso 
+  617  sudo dd if=/dev/sdb of=/media/user0/test/arch_finall_linux.iso status=progress bs=4096
+  618  ls
+  619  rm arch_finall_linux.iso 
+  620  exit
+  621  sudo findmnt -F /etc/fstab --veryfi
+  622  sudo findmnt -F /etc/fstab --verify
+  623  cd Desktop/
+  624  cd arch_install/
+  625  bash arch_main.sh 
+  626  sudo bash arch_main.sh 
+  627  bash
+  628  sudo apt update
+  629  sudo apt upgrade
+  630  cd ..
+  631  cd Files/
+  632  ls
+  633  cd arch_chroot/
+  634  ls
+  635  cd root.x86_64/
+  636  ls
+  637  cd mnt/
+  638  ls
+  639  cd home/
+  640  ls
+  641  ls -lisah
+  642  cd ramroot_1.1/
+  643  su ls 
+  644  ls
+  645  cd resources/
+  646  ls
+  647  cd scripts/
+  648  ls
+  649  nano -c in_chroot2.sh 
+  650  sudo bash arch_main.sh 
+  651  ls
+  652  cd resources/
+  653  ls
+  654  cd Files/
+  655  ls
+  656  lsblk
+  657  sudo mount /dev/sdb2 /mnt/
+  658  cd 7mn
+  659  cd /mnt/
+  660  ls
+  661  chroot . /bin/bash
+  662  sudo chroot . /bin/bash
+  663  sudo umount -l /mnt 
+  664  ls
+  665  lsblk
+  666  sudo bash arch_main.sh 
+  667  ls
+  668  cd resources/
+  669  ls
+  670  cd scripts/
+  671  ls
+  672  cd ramroot_1.1/
+  673  ls
+  674  cd usr/
+  675  ls
+  676  cd lib/
+  677  ls
+  678  cd ramroot/
+  679  ls
+  680  cat ramroot.
+  681  cat ramroot.conf 
+  682  cd ..
+  683  ls
+  684  cd ..
+  685  cd ,,
+  686  cd ..
+  687  ls
+  688  cat ramroot 
+  689  lsblk -d -o NAME,ROTA,SIZE | grep -v 0B |  grep -oP "s[a-z][a-z]?" | sort -u 
+  690  udevadm info --query=all -n /dev/"$j" 2>/dev/null | grep "USB"
+  691  udevadm info --query=all -n /dev/sdb 2>/dev/null | grep "USB"
+  692  udevadm info --query=all -n /dev/sda 2>/dev/null | grep "USB"
+  693  udevadm info --query=all -n /dev/sdb 2>/dev/null | grep "USB"
+  694  findmnt
+  695  findmnt | awk '{print $3}'
+  696  findmnt | grep sdb1 | awk '{print $3}'
+  697  findmnt | grep sdb1 | awk '{print $1}'
+  698  findmnt | grep -v "└─"  |  grep sdb1 | awk '{print $1}'
+  699  findmnt ||  grep sdb1 | awk '{print $1}'
+  700  findmnt |  grep sdb1 | awk '{print $1}'
+  701  findmnt |  grep sdb1 | awk '{print $2}'
+  702  findmnt -no TARGET -S /dev/sdb1
+  703  findmnt -no TARGET -S /dev/sdb
+  704  findmnt -no TARGET -S /dev/sdb1
+  705  findmnt -no TARGET -S /dev/sdb*
+  706  findmnt -no TARGET -S /dev/"sdb*"
+  707  findmnt -no SOURCE,TARGET | grep sdb
+  708  findmnt -no SOURCE,TARGET | grep sdb | awk '{print $1}'
+  709  findmnt -no TARGET -S /dev/sdb
+  710  findmnt -no TARGET -S /dev/sdb1
+  711  sudo bash arch_main.sh 
+  712  ls
+  713  sudo bash arch_main.sh 
+  714  findmnt -no TARGET -S /dev/sdb2
+  715  findmnt -no TARGET -S /dev/sdb
+  716  lsblk
+  717  sudo bash arch_main.sh 
+  718  findmnt -no TARGET -S
+  719  findmnt
+  720  findmnt -no SOURCE,TARGET | grep $usb_mount | awk '{print $1}'
+  721  findmnt -no SOURCE,TARGET | /dev/sda1 | awk '{print $1}'
+  722  findmnt -no SOURCE,TARGET | /dev/sdb1 | awk '{print $1}'
+  723  findmnt -no SOURCE,TARGET | /dev/sdb | awk '{print $1}'
+  724  sudo findmnt -no SOURCE,TARGET | /dev/sdb | awk '{print $1}'
+  725  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $1}'
+  726  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $2}'
+  727  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $1}'
+  728  findmnt -no TARGET -S /dev/sdb1
+  729  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $2}'
+  730  findmnt -no TARGET -S /dev/sdb1
+  731  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $2}'
+  732  findmnt -no SOURCE,TARGET | grep /dev/sdb | awk '{print $1}'
+  733  findmnt -no TARGET -S /dev/sdb1
+  734  findmnt -no SOURCE,TARGET | grep $usb_mount | awk '{print $1}'
+  735  findmnt -no SOURCE,TARGET | grep /dev/sda | awk '{print $1}'
+  736  findmnt -no TARGET -S /dev/sda1
+  737  findmnt -no TARGET -S /dev/sdb1
+  738  findmnt -no TARGET -S /dev/sdb2
+  739  sudo apt update
+  740  sudo apt upgrade
+  741  clear
+  742  cd ..
+  743  cd ~/Downloads/
+  744  clear
+  745  sudo bash arch_main.sh 
+  746  sudo sed -i.bak '/\b0 2\b/ s/^/#/' /media/user0/ARCHROOT/etc/fstab
+  747  lsblk
+  748  sudo mount /dev/sdc1 /mnt/
+  749  cd /mnt/
+  750  ls
+  751  cd EFI/
+  752  ls
+  753  cd BOOT/
+  754  ls
+  755  pwd
+  756  sudo bash arch_main.sh 
+  757  lsblk
+  758  sudo mount /dev/sdb1 /mnt/
+  759  cd /mnt/
+  760  ls
+  761  cd EFI/
+  762  ls
+  763  cd Bo
+  764  cd BOOT/
+  765  ls
+  766  lsblk
+  767  sudo bash arch_main.sh 
+  768  sudo chroot bash
+  769  sudo chroot /media/user0/ARCHROOT/usr/bin/bash
+  770  sudo chroot . /media/user0/ARCHROOT/usr/bin/bash
+  771  sudo chroot . /media/user0/ARCHROOT/
+  772  sudo chroot . /media/user0/ARCHROOT/usr/
+  773  sudo chroot . /media/user0/ARCHROOT/bin/
+  774  sudo chroot /media/user0/ARCHROOT/bin/
+  775  sudo chroot /media/user0/ARCHROOT/usr/bin/bash
+  776  sudo chroot . /media/user0/ARCHROOT/usr/bin/bash
+  777  touch test.sh
+  778  nano test.sh 
+  779  sudo chroot /media/user0/ARCHROOT/bin/bash
+  780  sudo chroot . /media/user0/ARCHROOT/bin/bash
+  781  sudo findmnt --verify -F mnt/etc/fstab
+  782  sudo findmnt --verify -Fetc/fstab
+  783  sudo findmnt --verify -F /etc/fstab°!
+  784  sudo bash arch_main.sh 
+  785  lsblk
+  786  sudo bash arch_main.sh 
+  787  output=$(findmnt --verify -F mnt/etc/fstab 2>&1)
+  788  echo $output
+  789  output=$(findmnt --verify -F /etc/fstab 2>&1)
+  790  echo $output
+  791  warnings=$( echo "$output" | grep -oP '\d+(?= warnings)')
+  792  echo $warnings
+  793  sudo bash arch_main.sh 
+  794  exit
+  795  LC_ALL sed 's/[^[:print:]\t//g' arch_install.ps1 
+  796  LC_ALL=C sed 's/[^[:print:]\t//g' arch_install.ps1 > cleaned.ps1
+  797  LC_ALL=C sed 's/[^[:print:]\t]//g' arch_install.ps1 > cleaned.ps1
+  798  tail -f  /home/user0/blob
+  799  exit
+  800  sudo apt update
+  801  sudo apt install tmux
+  802  cd Desktop/
+  803  touch tmux_test.sh
+  804  nano tmux_test.sh 
+  805  touch test_tmux.sh
+  806  nano
+  807  touch /home/user0/Desktop/test.txt
+  808  touch run_tmux.sh
+  809  nano run_tmux.sh 
+  810  nano tmux_test.sh 
+  811  nano run_tmux.sh 
+  812  bash test_tmux.sh 
+  813  nano run_tmux.sh 
+  814  bash run_tmux.sh 
+  815  tail -f  /home/user0/Desktop/test.txts
+  816  exit
+  817  /home/user0/Desktop/test_tmux.sh
+  818  exit
+  819  tail -f  /home/user0/Desktop/test_tmux.shblob
+  820  exit
+  821  /home/user0/Desktop/test.txt
+  822  exit
+  823  tail -f  /hblob
+  824  exit
+  825  /home/user0/Desktop/test_tmux.sh
+  826  exit
+  827  tail -f  /home/user0/Desktop/test.txthjnh
+  828  exit
+  829  /home/user0/Desktop/test_tmux.sh
+  830  exit
+  831  /home/user0/Desktop/test_tmux.sh
+  832  exit
+  833  /home/user0/Desktop/test_tmux.sh
+  834  exit
+  835  cd Desktop/
+  836  bash run_tmux.sh 
+  837  nano run_tmux.sh 
+  838  bash run_tmux.sh 
+  839  chmod 777 tmux_test.sh 
+  840  bash run_tmux.sh 
+  841  cd Desktop/
+  842  bash run_tmux.sh 
+  843  /home/user0/Desktop/test_tmux.sh
+  844  /home/user0/Desktop/test_tmux.sh
+  845  /home/user0/Desktop/test_tmux.sh
+  846  chmod +x test_tmux.sh 
+  847  bash run_tmux.sh 
+  848  exit
+  849  tmnux
+  850  tmux
+  851  ./run_function.sh
+  852  exit
+  853  watch --color -n 0.9 -t 'echo -e "$(cat ./description.txt)"'
+  854  exit
+  855  ./run_function.sh
+  856  exitr
+  857  exit
+  858  watch --color -n 0.9 -t 'echo -e "$(cat ./description.txt)"'
+  859  exit
+  860  bash tmux.sh 
+  861  ls -lisah
+  862  chmod +x run_function.sh 
+  863  chmod +x tmux.sh 
+  864  ls
+  865  ls -lisah
+  866  bash tmux.sh 
+  867  sudo apt install inotify-tools
+  868  nohup
+  869  bash arch_main.sh 
+  870  sudo bash arch_main.sh 
+  871  top
+  872  clear
+  873  ls
+  874  ls -lisah
+  875  chmod +x arch_main.sh 
+  876  cd resources/scripts/
+  877  ls
+  878  chmod +x check_packages.sh 
+  879  sudo bash arch_main.sh 
+  880  cd ..
+  881  sudo bash arch_main.sh 
+  882  exit
+  883  sudo bash arch_main.sh 
+  884  clear
+  885  sudo bash arch_main.sh 
+  886  sudo apt remove parted
+  887  sudo bash arch_main.sh 
+  888  sudo htop
+  889  sudo apt install htop
+  890  sudo htop
+  891  md5sun ./Downloads/archus-b_linux-main/resources/scripts/EDU/command_prompt.txt 
+  892  md5sum ./Downloads/archus-b_linux-main/resources/scripts/EDU/command_prompt.txt 
+  893  md5sum ./Downloads/archus-b_linux-main/resources/scripts/EDU/command_prompt.txt | cut -d" " -f1
+  894  cd ./Downloads/
+  895  cd archus-b_linux-main/
+  896  ls
+  897  sudo bash arch_main.sh 
+  898  cd resources/scripts/EDU/
+  899  ls -lisah
+  900  sudo bash arch_main.sh 
+  901  cd 
+  902  sudo bash arch_main.sh 
+  903  sudo bash arch_main.sh
+  904  $PPID
+  905  echo $PPID
+  906  ps -ef | grep "$PPID" 
+  907  sudo bash arch_main.sh
+  908  $!
+  909  sudo bash arch_main.sh
+  910  pidof -x "arch_install.sh"
+  911  pidof -x 
+  912  pidof
+  913  pidof -help
+  914  pidof -c
+  915  pidof -c write_command
+  916  pidof -s write_command
+  917  pidof
+  918  pidof -ist
+  919  pgrep
+  920  pgrep -f
+  921  pgrep -f "write-command"
+  922  ps aux | grep  "write-command"
+  923  ps aux | grep  "arch_install.sh" 
+  924  ps aux | grep  "arch_install.sh" | awk '{print $2}'
+  925  ps aux | grep  "arch_install.sh"
+  926  pstree
+  927  ps -ef --forest
+  928  ps aux | grep  "arch_install.sh"
+  929  ps -ef --forest
+  930  ps -ef --forest | grep "arch_install.sh"
+  931  pidof -x "arch_install.sh"
+  932  pidof -x "/home/user0/Downloads/archus-b_linux-maina/rch_install.sh"
+  933  pidof -x "/home/user0/Downloads/archus-b_linux-maina/arch_install.sh"
+  934  pidof -x "/home/user0/Downloads/archus-b_linux-main/arch_install.sh"
+  935  pidof -x "arch_install.sh"
+  936  pidof -x arch_install.sh
+  937  sudo pidof -x "/home/user0/Downloads/archus-b_linux-main/arch_install.sh"
+  938  sudo pidof -x "arch_install.sh"
+  939  sudo pidof -x arch_install.sh
+  940  sudo pidof -x /home/user0/Downloads/archus-b_linux-main/arch_install.sh
+  941  pgrep
+  942  pgrep -f arch_install.sh
+  943  ps -ef
+  944  ps -ef | grep arch_install.sh  |
+  945  ps -ef | grep arch_install.sh 
+  946  ps -ef | grep arch_install.sh | tr -s ' ' | cut -d ' ' -f2
+  947  ps -ef | grep arch_install.sh | tr -s ' ' | cut -d ' ' -f2 
+  948  echo $$ >> /tmp/my.pid
+  949  ps -ef | grep arch_install.sh | tr -s ' ' | cut -d ' ' -f2 
+  950  ps -ef | grep bash | tr -s ' ' | cut -d ' ' -f2 
+  951  logger
+  952  ps -ef
+  953  ps -ef | grep "arch_main.sh"
+  954  ps -ef
+  955  ps -ef | grep "arch_main.sh"
+  956  ps -ef | grep "arch_main.sh" | cut -d" " -f1
+  957  ps -ef | grep "arch_main.sh" | cut -d" " -f2
+  958  ps -ef | grep "arch_main.sh" | cut -d" " -f1
+  959  ps -ef | grep "arch_main.sh" | cut -d " " -f1
+  960  ps -ef | grep "arch_main.sh" | awk {print $2}
+  961  ps -ef | grep "arch_main.sh" | awk '{print $2}'
+  962  ps -ef | grep "arch_main.sh" | awk '{print $2}' | head 1
+  963  ps -ef | grep "arch_main.sh" | awk '{print $2}' | head -1
+  964  ps -ef
+  965  history | grep tree
+  966  pstree
+  967  history | grep tre
+  968  pptree
+  969  pstree
+  970  ps -ef | grep "arch_main.sh" | awk '{print $2}' | head -1
+  971  sudo htop
+  972  sudo bash arch_main.sh 
+  973  terminator
+  974  sudo bash arch_main.sh 
+  975  lsblk
+  976  sudo mount /dev/sda /mnt/
+  977  findmnt
+  978  cd ..
+  979  cd /
+  980  ls
+  981  cd media/
+  982  ls
+  983  cd user0/
+  984  ls#
+  985  ls
+  986  cd USB/
+  987  sudo ls USB/
+  988  lsblk
+  989  sudo findmnt
+  990  sudo bash arch_main.sh 
+  991  git clone https://github.com/MusicBlaster/radyoalev.git
+  992  sudo apt install git
+  993  git clone https://github.com/MusicBlaster/radyoalev.git
+  994  cd radyoalev/
+  995  ls
+  996  bundle exec jekyll serve --livereload
+  997  sudo apt install ruby-full
+  998  bundle exec jekyll serve --livereload
+  999  bundel install
+ 1000  snap
+ 1001  sudo apt install snap
+ 1002  snap install ruby --classic
+ 1003  snap
+ 1004  sudo snap
+ 1005  sudo apt purge snap
+ 1006  sudo apt install snapd
+ 1007  snap
+ 1008  snap install ruby --classic
+ 1009  sudo snap install ruby --classic
+ 1010  bundle exec jekyll serve --livereload
+ 1011  sudo apt install bundle
+ 1012  gem
+ 1013  gem install bundler
+ 1014  sudo gem install bundler
+ 1015  bundle exec jekyll serve --livereload
+ 1016  bundle install github-pages-232, jekyll-sitemap-1.4.0, github-pages-health-check-1.18.2, jekyll-3.10.0, jekyll-avatar-0.8.0, jekyll-coffeescript-1.2.2, jekyll-commonmark-ghpages-0.5.1, jekyll-default-layout-0.1.5, jekyll-gist-1.5.0, jekyll-github-metadata-2.16.1, jekyll-include-cache-0.2.1, jekyll-mentions-1.6.0, jekyll-optional-front-matter-0.3.2, jekyll-paginate-1.1.0, jekyll-readme-index-0.3.0, jekyll-redirect-from-0.16.0, jekyll-relative-links-0.6.1, jekyll-remote-theme-0.4.3, jekyll-sass-converter-1.5.2, jekyll-swiss-1.0.0, jekyll-theme-architect-0.2.0, jekyll-theme-cayman-0.2.0, jekyll-theme-dinky-0.2.0, jekyll-theme-hacker-0.2.0, jekyll-theme-leap-day-0.2.0, jekyll-theme-merlot-0.2.0, jekyll-theme-midnight-0.2.0, jekyll-theme-minimal-0.2.0, jekyll-theme-modernist-0.2.0, jekyll-theme-primer-0.6.0, jekyll-theme-slate-0.2.0, jekyll-theme-tactile-0.2.0, jekyll-theme-time-machine-0.2.0, jekyll-titles-from-headings-0.5.3, jemoji-0.13.0, liquid-4.0.4, mercenary-0.3.6, nokogiri-1.16.7-x86_64-linux, terminal-table-1.8.0, addressable-2.8.7, dnsruby-1.72.2, octokit-4.25.1, public_suffix-5.1.1, typhoeus-1.4.1, csv-3.3.0, em-websocket-0.5.3, i18n-1.14.5, pathutil-0.16.2, safe_yaml-1.0.5, coffee-script-2.4.1, coffee-script-source-1.12.2, commonmarker-0.23.10, jekyll-commonmark-1.4.0, html-pipeline-2.14.3, rubyzip-2.3.2, sass-3.7.4, gemoji-4.1.0, rexml-3.3.6, racc-1.8.1, unicode-display_width-1.8.0, simpleidn-0.2.3, faraday-2.11.0, sawyer-0.9.2, ethon-0.16.0, eventmachine-1.2.7, http_parser.rb-0.8.0, concurrent-ruby-1.3.4, listen-3.9.0, execjs-2.9.1, activesupport-7.2.1, sass-listen-4.0.0, strscan-3.1.0, faraday-net_http-3.3.0, logger-1.6.0, ffi-1.17.0, rb-fsevent-0.11.2, rb-inotify-0.11.1, base64-0.2.0, bigdecimal-3.1.8, connection_pool-2.4.1, drb-2.2.1, minitest-5.25.1, securerandom-0.3.1, tzinfo-2.0.6, net-http-0.4.1, uri-0.13.1
+ 1017  bundle install github-pages-232 jekyll-sitemap-1.4.0 github-pages-health-check-1.18.2 jekyll-3.10.0 jekyll-avatar-0.8.0 jekyll-coffeescript-1.2.2 jekyll-commonmark-ghpages-0.5.1 jekyll-default-layout-0.1.5 jekyll-gist-1.5.0 jekyll-github-metadata-2.16.1 jekyll-include-cache-0.2.1 jekyll-mentions-1.6.0 jekyll-optional-front-matter-0.3.2 jekyll-paginate-1.1.0 jekyll-readme-index-0.3.0 jekyll-redirect-from-0.16.0 jekyll-relative-links-0.6.1 jekyll-remote-theme-0.4.3 jekyll-sass-converter-1.5.2 jekyll-swiss-1.0.0 jekyll-theme-architect-0.2.0 jekyll-theme-cayman-0.2.0 jekyll-theme-dinky-0.2.0 jekyll-theme-hacker-0.2.0 jekyll-theme-leap-day-0.2.0 jekyll-theme-merlot-0.2.0 jekyll-theme-midnight-0.2.0 jekyll-theme-minimal-0.2.0 jekyll-theme-modernist-0.2.0 jekyll-theme-primer-0.6.0 jekyll-theme-slate-0.2.0 jekyll-theme-tactile-0.2.0 jekyll-theme-time-machine-0.2.0 jekyll-titles-from-headings-0.5.3 jemoji-0.13.0 liquid-4.0.4 mercenary-0.3.6 nokogiri-1.16.7-x86_64-linux terminal-table-1.8.0 addressable-2.8.7 dnsruby-1.72.2 octokit-4.25.1 public_suffix-5.1.1 typhoeus-1.4.1 csv-3.3.0 em-websocket-0.5.3 i18n-1.14.5 pathutil-0.16.2 safe_yaml-1.0.5 coffee-script-2.4.1 coffee-script-source-1.12.2 commonmarker-0.23.10 jekyll-commonmark-1.4.0 html-pipeline-2.14.3 rubyzip-2.3.2 sass-3.7.4 gemoji-4.1.0 rexml-3.3.6 racc-1.8.1 unicode-display_width-1.8.0 simpleidn-0.2.3 faraday-2.11.0 sawyer-0.9.2 ethon-0.16.0 eventmachine-1.2.7 http_parser.rb-0.8.0 concurrent-ruby-1.3.4 listen-3.9.0 execjs-2.9.1 activesupport-7.2.1 sass-listen-4.0.0 strscan-3.1.0 faraday-net_http-3.3.0 logger-1.6.0 ffi-1.17.0 rb-fsevent-0.11.2 rb-inotify-0.11.1 base64-0.2.0 bigdecimal-3.1.8 connection_pool-2.4.1 drb-2.2.1 minitest-5.25.1 securerandom-0.3.1 tzinfo-2.0.6 net-http-0.4.1 uri-0.13.1
+ 1018  gem install jekyll bundler
+ 1019  sudo gem install jekyll bundler
+ 1020  bundle exec jekyll serve --livereload
+ 1021  jekyll build
+ 1022  bundle exec jekyll build
+ 1023  sudo bundle exec jekyll serve --livereload
+ 1024  gem install jekyll
+ 1025  sudo chown 777 -R /var/lib/gems/
+ 1026  gem install jekyll
+ 1027  sudo apt install ruby-full build-essentials zlib1g-dev
+ 1028  sudo apt install ruby-full build-essential zlib1g-dev
+ 1029  echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+ 1030  echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+ 1031  echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+ 1032  source ~/.bashrc
+ 1033  gem install jekyll bundler
+ 1034  bundle exec jekyll build
+ 1035  sudo apt install github-pages-232
+ 1036  gem update yekyll
+ 1037  bundle install
+ 1038  bundle exec jekyll build
+ 1039  ls
+ 1040  rm Gemfile.lock 
+ 1041  bundle exec jekyll build
+ 1042  bundle install
+ 1043  gem install jekyll-watch
+ 1044  gem install forwardable-extended
+ 1045  gem install colorator
+ 1046  bundle exec jekyll build
+ 1047  bundle install
+ 1048  bundle exec jekyll build
+ 1049  sudo bundle exec jekyll serve --livereload
+ 1050  bundle install
+ 1051  bundle exec jekyll serve --livereload
+ 1052  git add .
+ 1053  git commit -m "TEST42"
+ 1054  git config credential.username MusicBlaster
+ 1055  git commit -m "TEST42"
+ 1056  git config --global user.name "MusicBlaster"
+ 1057  git commit -m "TEST42"
+ 1058  git config --global user.email "music_blog_al@protonmail.com"
+ 1059  git commit -m "TEST42"
+ 1060  git push origin main
+ 1061  git remote add origin https://github.com/MusicBlaster/radyoalev.git/
+ 1062  git push origin main
+ 1063  cd Desktop/
+ 1064  ls
+ 1065  cd ..
+ 1066  cd Downloads/
+ 1067  cd radyoalev/
+ 1068  ls
+ 1069  git commit -m "TEST42"
+ 1070  git config --global credential.helper
+ 1071  git push origin main
+ 1072  history
+ 1073  cd Downloads/
+ 1074  cd radyoalev/
+ 1075  bundle exec jekyll serve --livereload
+ 1076  git add .
+ 1077  git commit -m "TEST43"
+ 1078  git push origin main
+ 1079  bundle exec jekyll serve --livereload
+ 1080  cd Downloads/
+ 1081  cd radyoalev/
+ 1082  git add .
+ 1083  git commit -m "TEST44"
+ 1084  git push origin main
+ 1085  sudo apt update
+ 1086  sudo apt install dmg2img
+ 1087  cd /media/user0/USB/
+ 1088  lsblk
+ 1089  mount /dev/sdb1 /mnt/
+ 1090  sudo mount /dev/sdb1 /mnt/
+ 1091  cd /mnt/
+ 1092  ls
+ 1093  dmg2img -v -i SequoiaInstaller.dmg SequoiaInstaller.iso
+ 1094  sudo apt install virtualbox-guest-
+ 1095  sudo install virtualbox-guests-utils
+ 1096  sudo apt install virtualbox-guests-utils
+ 1097  sudo reboot
+ 1098  sudo apt update
+ 1099  sudo apt upgrade
+ 1100  sudo apt autoremove
+ 1101  sudo losetup -a
+ 1102  losetup
+ 1103  sudo apt update
+ 1104  lsblk
+ 1105  findmnt
+ 1106  sudo lsblk
+ 1107  sudo mount /dev/sr0 /mnt/
+ 1108  ls /mnt/
+ 1109  cd /mnt/
+ 1110  ./VBoxLinuxAdditions.run 
+ 1111  sudo  ./VBoxLinuxAdditions.run 
+ 1112  sudo /sbin/rcvboxadd
+ 1113  sudo /sbin/rcvboxadd start
+ 1114  sudo /sbin/rcvboxadd quicksetup all
+ 1115  sudo  ./VBoxLinuxAdditions.run 
+ 1116  sudo /sbin/rcvboxadd quicksetup all
+ 1117  sudo /sbin/rcvboxadd reload
+ 1118  cat /var/log/vboxadd-setup.log
+ 1119  sudo /sbin/rcvboxadd
+ 1120  sudo /sbin/rcvboxadd status-kernel
+ 1121  sudo /sbin/rcvboxadd cleanup
+ 1122  sudo /sbin/rcvboxadd reload
+ 1123  sudo apt install gcc-12
+ 1124  sudo apt install gcc-13
+ 1125  /var/log/vboxadd-setup.log
+ 1126  sudo apt install build-essential linux-headers-$(uname -r)
+ 1127  sudo reboot
+ 1128  lsblk
+ 1129  sudo mount /dev/sr0 /mnt/
+ 1130  cd /mnt/
+ 1131  ls
+ 1132  sudo  ./VBoxLinuxAdditions.run 
+ 1133  sudo apt update
+ 1134  cd ..
+ 1135  dd if=/dev/zero of=/home/user0/Desktop/usb.img bs=1M count=50000
+ 1136  dd if=/dev/zero of=/home/user0/Desktop/usb.img bs=1M count=50000 status=progress
+ 1137  dd if=/dev/zero of=/home/user0/Desktop/usb.img bs=1M count=5000 status=progress
+ 1138  sudo lpsetup -fP /home/user0/Desktop/usb.img 
+ 1139  sudo losetup -fP /home/user0/Desktop/usb.img 
+ 1140  lsblk
+ 1141  findmnt
+ 1142  cd /home/user0/Desktop/archus-b_linux-test-tofile/
+ 1143  ls
+ 1144  sudo bash arch_main.sh 
+ 1145  lsblk
+ 1146  sudo bash arch_main.sh 
+ 1147  lsblk
+ 1148  sudo bash arch_main.sh 
+ 1149  lsblk
+ 1150  qemu-utils
+ 1151  sudo apt install qemu-utils
+ 1152  cd ..
+ 1153  quemu-img convert -f raw -0 vpc usb.img usb.vhdx
+ 1154  qemu-img convert -f raw -0 vpc usb.img usb.vhdx
+ 1155  qemu-img convert -f raw -O vhdx usb.img usb.vhdx
+ 1156  lsblk
+ 1157  sudo mount /dev/sdb1 /mnt/
+ 1158  ls
+ 1159  cp usb.vhdx /mnt/
+ 1160  rsync usb.vhdx /mnt/ bs=1M status=progress
+ 1161  sudo apt install rsync
+ 1162  rsync usb.vhdx /mnt/ bs=1M status=progress
+ 1163  rsync /home/user0/Desktop/usb.vhdx  /mnt/ bs=1M status=progress
+ 1164  rsync -avz /home/user0/Desktop/usb.vhdx /mnt/ bs=1M status=progress
+ 1165  rsync /home/user0/Desktop/usb.vhdx /mnt/ bs=1M --progress
+ 1166  sudo umount -l /mnt 
+ 1167  lsblk
+ 1168  ls /mnt/
+ 1169  sudo mount /dev/sdc1 /mnt/
+ 1170  ls /mnt/
+ 1171  rsync /home/user0/Desktop/usb.vhdx /mnt/ bs=1M --progress
+ 1172  sudo find / -name usb.vhdx
+ 1173  rsync /home/user0/Desktop/usb.vhdx /mnt bs=1M --progress
+ 1174  rsync /home/user0/Desktop/usb.vhdx /mnt/usb/ bs=1M --progress
+ 1175  rsync /home/user0/Desktop/usb.vhdx /media/user0/USB/ bs=1M --progress
+ 1176  rsync /home/user0/Desktop/usb.vhdx /media/user0/USB/ --progress
+ 1177  ls
+ 1178  qemu-img info usb.vhdx 
+ 1179  cd /mnt/
+ 1180  ls
+ 1181  ls -lisah
+ 1182  rm usb.vhdx 
+ 1183  ls
+ 1184  sudo umount -l /mnt 
+ 1185  ls
+ 1186  findmnt
+ 1187  lsblk
+ 1188  sudo mkdir /mnt/usb
+ 1189  sudo mount /dev/sdc1 /mnt/usb/
+ 1190  ls /mnt/usb/
+ 1191  sudo umount -l /mnt/usb  
+ 1192  cd /media/user0/
+ 1193  ls
+ 1194  cd USB/
+ 1195  ls
+ 1196  sudo ls USB/
+ 1197  findmnt
+ 1198  sudo mount /dev/sdc1 /media/user0/USB/
+ 1199  history
+ 1200  cd /home/user0/Desktop/
+ 1201  qemu-img convert -f raw -O vhdx usb.img usb.vhdx
+ 1202  history
+ 1203  dd if=/dev/random of=/home/user0/Desktop/usb.img bs=1M count=50000 status=progress
+ 1204  dd if=/dev/random of=/home/user0/Desktop/usb.img bs=1M count=5000 status=progress
+ 1205  cd Desktop/
+ 1206  qemu-img convert -p -f raw -O vhdx subformat-fixed  usb.img usb.vhdx
+ 1207  qemu-img convert -p -f raw -O vhdx -o subformat=fixed  usb.img usb.vhdx
+ 1208  qemu-img info usb.vhdx 
+ 1209  qemu-img convert -p -f raw -O vhdx -o subformat=dynamic  usb.img usb.vhdx
+ 1210  qemu-img info usb.vhdx 
+ 1211  ls
+ 1212  history
+ 1213  sudo lpsetup -fP /home/user0/Desktop/usb.img
+ 1214  sudo losetup -fP /home/user0/Desktop/usb.img
+ 1215  findmnt
+ 1216  lsblk
+ 1217  cd archus-b_linux-test-tofile/
+ 1218  sudo bash arch_main.sh 
+ 1219  lsblk
+ 1220  sudo losetup -d /home/user0/Desktop/usb.img
+ 1221  sudo losetup -d /dev/loop5
+ 1222  lsblk
+ 1223  cd ..
+ 1224  ls
+ 1225  ls -lisah
+ 1226  qemu-img convert -p -f raw -O vhdx -o subformat=monolithicFlat  usb.img usb.vhdx
+ 1227  qemu-img convert -p -f raw -O vhdx -o subformat=fixed  usb.img usb.vhdx
+ 1228  qemu-img info usb.vhdx 
+ 1229  qemu-img convert -p -f raw -O vhdx -o subformat=fixed -o block_state_zero=off  usb.img usb.vhdx
+ 1230  qemu-img convert -p -f raw -O vhdx -o subformat=fixed,block_state_zero=off  usb.img usb.vhdx
+ 1231  qemu-img convert -p -f raw -O vhdx -o block_state_zero=off  usb.img usb.vhdx
+ 1232  qemu-img info usb.vhdx 
+ 1233  qemu-img convert -p -f raw -O vhdx -o subformat=fixed  usb.img usb.vhdx 5G
+ 1234  ls
+ 1235  qemu-img convert -p -f raw -O vhdx -o subformat=fixed  usb.img usb.vhdx 5G
+ 1236  qemu-img convert -p -f raw -O vhdx -o subformat=fixed usb.img usb.vhdx 5G
+ 1237  qemu-img convert -p -f raw -O vhdx -o subformat=fixed,forcesize usb.img usb.vhdx
+ 1238  qemu-img convert -p -f raw -O vhdx -o subformat=fixed,force_size usb.img usb.vhdx
+ 1239  qemu-img convert -p -f raw -O vhdx -o force_size usb.img usb.vhdx
+ 1240  qemu-img convert -p -f raw -O vpc -o subformat=fixed,force_size usb.img usb.vhd
+ 1241  qemu-img info usb.vhdx 
+ 1242  qemu-img info usb.vhd
+ 1243  ls
+ 1244  rm usb.vhd 
+ 1245  qemu-img convert -p -o subformat=fixed,force_size -O vpc  usb.img usb.vhd
+ 1246  qemu-img info usb.vhd
+ 1247  ls
+ 1248  rm usb.vhd 
+ 1249  qemu-img resize usb.img $rounded_size
+ 1250  qemu-img check usb.img 
+ 1251  qemu-img info usb.img 
+ 1252  qemu-img convert -p -o subformat=fixed,force_size -O vpc  usb.img usb.vhd
+ 1253  lsblk
+ 1254  sido mount /dev/sdb1 /media/user0/USB/
+ 1255  sudo mount /dev/sdb1 /media/user0/USB/
+ 1256  sudo umount -l /media/user0/USB 
+ 1257  sudo apt update
+ 1258  sudo apt upgrade
+ 1259  sudo apt autoremove
+ 1260  lsblk
+ 1261  cd ~/Desktop/
+ 1262  ls
+ 1263  cd ..
+ 1264  cd Downloads/
+ 1265  ls
+ 1266  cd archus-b_linux-main/
+ 1267  ls
+ 1268  sudo bash arch_main.sh 
+ 1269  exit
+ 1270  cd Downloads/
+ 1271  ls
+ 1272  cd archus-b_linux-main/
+ 1273  sudo bash arch_main.sh 
+ 1274  exit
+ 1275  sudo bash arch_main.sh 
+ 1276  cd Dow
+ 1277  cd Downloads/
+ 1278  cd archus-b_linux-main/
+ 1279  cd Dow
+ 1280  sudo bash arch_main.sh 
+ 1281  cd Downloads/
+ 1282  cd archus-b_linux-main/
+ 1283  ls
+ 1284  sudo bash arch_main.sh 
+ 1285  cd Downloads/
+ 1286  ls
+ 1287  cd archus-b_linux-main/
+ 1288  sudo bash arch_main.sh 
+ 1289  cd Downloads/
+ 1290  cd archus-b_linux-main/
+ 1291  sudo bash arch_main.sh 
+ 1292  cd Downloads/
+ 1293  cd archus-b_linux-main/
+ 1294  sudo bash arch_main.sh 
+ 1295  cd Downloads/
+ 1296  cd archus-b_linux-main/
+ 1297  sudo bash arch_main.sh 
+ 1298  cd Downloads/
+ 1299  cd archus-b_linux-main/
+ 1300  sudo bash arch_main.sh 
+ 1301  clear
+ 1302  sudo bash arch_main.sh 
+ 1303  exit
+ 1304  cd Downloads/
+ 1305  cd archus-b_linux-main/
+ 1306  sudo bash arch_main.sh 
+ 1307  cd Downloads/
+ 1308  cd archus-b_linux-main/
+ 1309  sudo bash arch_main.sh 
+ 1310  exit
+ 1311  cd Downloads/
+ 1312  cd archus-b_linux-main/
+ 1313  sudo bash arch_main.sh 
+ 1314  sudo htop
+ 1315  sudo apt update
+ 1316  sudo apt upgrade -y
+ 1317  sudo apt autoremove
+ 1318  sudo bash arch_main.sh 
+ 1319  lsblk
+ 1320  sudo mount /dev/sdb2 /mnt/
+ 1321  cd /mnt/
+ 1322  ls
+ 1323  sudo cp /etc/mkinitcpio.conf /home/user0/Desktop/
+ 1324  sudo cp /mnt/etc/mkinitcpio.conf /home/user0/Desktop/
+ 1325  nano ~/Desktop/mkinitcpio.conf 
+ 1326  cd ~/Downloads/arch_correct/
+ 1327  ls
+ 1328  cd archus-b_linux-main/
+ 1329  sudo bash arch_main.sh 
+ 1330  cd ~/Downloads/arch_correct/archus-b_linux-main/
+ 1331  sudo bash arch_main.sh 
+ 1332  lsblk
+ 1333  cat /home/user0/Downloads/arch_correct/archus-b_linux-main/resources/Files/arch_chroot/root.x86_64/mnt/etc/mkinitcpio.conf
+ 1334  sudo bash arch_main.sh 
+ 1335  lsblk
+ 1336  mount /dev/sdb2 /mnt/
+ 1337  sudo mount /dev/sdb2 /mnt/
+ 1338  grep -E '^[[:space:]]*(MODULES|HOOKS)*[[:space:]]' /mnt/etc/mkinitcpio.conf
+ 1339  grep -E '^[[:space:]]*(MODULES|HOOKS)*[[:space:]]*=' /mnt/etc/mkinitcpio.conf
+ 1340  sudo bash arch_main.sh 
+ 1341  lsblk
+ 1342  sudo mount /dev/sda2 /mnt/
+ 1343  cd /mnt/etc/
+ 1344  ls
+ 1345  cd /usr/
+ 1346  ls
+ 1347  cd /mnt/home/
+ 1348  ls
+ 1349  cd user0/
+ 1350  ls
+ 1351  lsblk
+ 1352  sudo umount -l /mnt 
+ 1353  sudo mount /dev/sdb2 /mnt/
+ 1354  nano /mnt/etc/ramroot.conf 
+ 1355  nano /mnt/etc/fstab 
+ 1356  cd Downloads/arch_correct/
+ 1357  ls
+ 1358  cd archus-b_linux-main/
+ 1359  ls
+ 1360  cd resources/
+ 1361  ls
+ 1362  cd scripts/
+ 1363  ls
+ 1364  cd ramroot_1.1/
+ 1365  ls
+ 1366  cd usr/
+ 1367  ls
+ 1368  cd lib/
+ 1369  ls
+ 1370  cd ramroot/
+ 1371  ls
+ 1372  nano ramroot.conf 
+ 1373  cd ..
+ 1374  cd initcpio/
+ 1375  ls
+ 1376  cd hooks/
+ 1377  ls
+ 1378  nano ramroot 
+ 1379  cd /
+ 1380  clear
+ 1381  cd /home/user0/Downloads/arch_correct/
+ 1382  sudo bash archus-b_linux-main
+ 1383  cd archus-b_linux-main/
+ 1384  sudo bash arch_main.sh 
+ 1385  lsblk
+ 1386  sudo mount /dev/sdb2 /mnt/
+ 1387  nano /mnt/etc/mkinitcpio.conf
+ 1388  sudo bash arch_main.sh 
+ 1389  ls
+ 1390  cd resources/
+ 1391  ls
+ 1392  cd scripts/
+ 1393  ls
+ 1394  touch replace_hooks.sh
+ 1395  nano replace_hooks.sh 
+ 1396  sudo bash arch_main.sh 
+ 1397  cd resources/
+ 1398  cd Files/
+ 1399  ls
+ 1400  rm -rf *
+ 1401  sudo rm -rf *
+ 1402  ls
+ 1403  cd ..
+ 1404  ls
+ 1405  sudo bash arch_main.sh 
+ 1406  lsblk
+ 1407  sudo mount /dev/sdb1 /mnt/
+ 1408  history
+ 1409  /home/users/Desktop/history >> history.txt
+ 1410  /home/users/user0/Desktop/history.txt >> history.txt
+ 1411  /home/user/user0/Desktop/history.txt >> history.txt
+ 1412  history >> ~/Desktop/history.txt >> history.txt
